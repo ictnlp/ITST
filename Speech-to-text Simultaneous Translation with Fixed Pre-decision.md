@@ -223,7 +223,6 @@ python scripts/average_checkpoints.py --inputs ${modelfile} --num-update-checkpo
     --output ${modelfile}/average-model.pt --last_file ${last_file}
 file=${modelfile}/average-model.pt 
 
-
 simuleval --agent examples/speech_to_text/simultaneous_translation/agents/simul_agent.s2t.moe_waitk.fixed_predecision.py \
     --source ${wav_list} \
     --target ${reference} \
@@ -272,8 +271,8 @@ The numerical results on MuST-C English-to-German:
 
 The numerical results on MuST-C English-to-Spanish:
 
-| delta |   CW    |  AP  |   AL    |   DAL   | BLEU  |
-| :---: | :-----: | :--: | :-----: | :-----: | :---: |
+| delta |   CW    |  AP  |   AL    |   DAL   | SacreBLEU  |
+| :---: | :-----: | :--: | :-----: | :-----: | :----------: |
 |  0.2  | 455.84  | 0.69 | 960.49  | 1452.41 | 17.77 |
 |  0.3  | 476.70  | 0.74 | 1152.53 | 1653.25 | 18.38 |
 |  0.4  | 510.98  | 0.77 | 1351.47 | 1843.40 | 18.71 |

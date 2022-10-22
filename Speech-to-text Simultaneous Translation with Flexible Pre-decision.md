@@ -11,7 +11,7 @@ This is a tutorial of ITST training and inference on speech-to-text simultaneous
 
 ### Data Pre-processing
 
-We use the data of MuST-C (download [here](https://nlp.stanford.edu/projects/nmt/)), which is multilingual speech-to-text translation corpus with 8-language translations on English TED talks. Download `MUSTC_v1.0_en-${lang}.tar.gz` to the path `${mustc_root}`， and then preprocess it with:
+We use the data of MuST-C (download [here](https://nlp.stanford.edu/projects/nmt/)), which is multilingual speech-to-text translation corpus with 8-language translations on English TED talks. Download `MUSTC_v1.0_en-${lang}.tar.gz` to the path `${mustc_root}`, and then preprocess it with:
 
 ```bash
 mustc_root=PATH_TO_MUSTC_DATA
@@ -179,7 +179,6 @@ threshold=TEST_THRESHOLD
 python scripts/average_checkpoints.py --inputs ${modelfile} --num-update-checkpoints 5 \
     --output ${modelfile}/average-model.pt --best True
 file=${modelfile}/average-model.pt
-
 
 simuleval --agent examples/speech_to_text/simultaneous_translation/agents/simul_agent.s2t.itst.flexible_predecision.py \
     --source ${wav_list} \
