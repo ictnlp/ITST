@@ -81,7 +81,7 @@ class LabelSmoothedCrossEntropyCriterionWithITSTS2TFlexiblePredecison(FairseqCri
         """
 
         if update_num is not None:
-            train_threshold = 0.5 + 0.5 * math.exp(-update_num / 100000)
+            train_threshold = 0.5 + 0.5 * math.exp(-update_num / 200000)
             if update_num < 4000:
                 train_threshold = None
         else:
