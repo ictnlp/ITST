@@ -25,9 +25,9 @@ Our method is implemented based on the open-source toolkit [Fairseq](https://git
 
 Information-transport-based simultaneous translation (ITST) achieves good results on both **text-to-text simultaneous translation** and **speech-to-text simultaneous translation** (a.k.a., streaming speech translation). Detailed introductions refer to:
 
-- [Text-to-text simultaneous translation](./Text-to-text%Simultaneous%Translation)
-- [Speech-to-text simultaneous translation with fixed pre-decision](./Speech-to-text%Simultaneous%Translation%with%Fixed%Pre-decision.md)
-- [Speech-to-text simultaneous translation with flexible pre-decision](./Speech-to-text%Simultaneous%Translation%with%Flexible%Pre-decision.md)
+- [Text-to-text simultaneous translation](https://github.com/ictnlp/ITST/blob/main/Text-to-text%20Simultaneous%20Translation.md)
+- [Speech-to-text simultaneous translation with fixed pre-decision](https://github.com/ictnlp/ITST/blob/main/Speech-to-text%20Simultaneous%20Translation%20with%20Fixed%20Pre-decision.md)
+- [Speech-to-text simultaneous translation with flexible pre-decision](https://github.com/ictnlp/ITST/blob/main/Speech-to-text%20Simultaneous%20Translation%20with%20Flexible%20Pre-decision.md)
 
 All example shell scripts refer to [shell_scripts/](shell_scripts/).
 
