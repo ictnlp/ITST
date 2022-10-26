@@ -1,6 +1,6 @@
 # Information-Transport-based Policy for Simultaneous Translation
 
-Source code for our EMNLP 2022 main conference paper "Information-Transport-based Policy for Simultaneous Translation" (PDF)
+Source code for our EMNLP 2022 main conference paper "[Information-Transport-based Policy for Simultaneous Translation](https://arxiv.org/pdf/2210.12357.pdf)"
 
 <img src="./ITST.png" alt="fig" style="zoom:50%;" />
 
@@ -47,5 +47,6 @@ In this repository is useful for you, please cite as:
     year = "2022",
     address = "Online and Abu Dhabi",
     publisher = "Association for Computational Linguistics",
+    url="https://arxiv.org/pdf/2210.12357.pdf",
 }
 ```
