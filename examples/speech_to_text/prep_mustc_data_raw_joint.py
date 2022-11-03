@@ -153,7 +153,7 @@ def process(args):
         df = filter_manifest_df(
             df, is_train_split=is_train_split, min_n_frames=1000, max_n_frames=480000
         )
-        save_df_to_tsv(df, cur_root / f"{split}_raw_joint.tsv")
+        save_df_to_tsv(df, cur_root / f"{split}_joint.tsv")
 
     for split in ["tst-COMMON", "dev"]:
         is_train_split = split.startswith("train")

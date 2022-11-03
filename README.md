@@ -35,7 +35,7 @@ All example shell scripts refer to [shell_scripts/](shell_scripts/).
 
 If you have any questions, feel free to contact me with: `zhangshaolei20z@ict.ac.cn`.
 
-In this repository is useful for you, please cite as:
+If this repository is useful for you, please cite as:
 
 ```
 @inproceedings{ITST,
